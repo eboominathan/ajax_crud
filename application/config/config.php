@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = "http://" . filter_input(INPUT_SERVER, 'SERVER_NAME').'/ci_angularjs/';
+$config['base_url'] = "http://" . filter_input(INPUT_SERVER, 'SERVER_NAME').'/ajax/';
 
 /*
 |--------------------------------------------------------------------------
